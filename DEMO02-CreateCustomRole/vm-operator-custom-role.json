@@ -1,0 +1,24 @@
+{
+  "Name": "DSW Virtual Machine Operator",
+  "Id": null,
+  "IsCustom": true,
+  "Description": "Can monitor and restart virtual machines.",
+  "Actions": [
+    "Microsoft.Storage/*/read",
+    "Microsoft.Network/*/read",
+    "Microsoft.Compute/*/read",
+    "Microsoft.Compute/virtualMachines/start/action",
+    "Microsoft.Compute/virtualMachines/restart/action",
+    "Microsoft.Authorization/*/read",
+    "Microsoft.ResourceHealth/availabilityStatuses/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Insights/alertRules/*",
+    "Microsoft.Support/*"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/9e98735b-d6c0-4c1a-83d0-db99605edcc2"
+  ]
+}
